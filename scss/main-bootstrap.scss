@@ -1,0 +1,12 @@
+$primary: purple;
+
+@import '../node_modules/bootstrap/scss/boostrap';
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+$new-colors: (
+    'newlydiscoveredcolor': #20c997,
+    'newlydiscoveredcolor2': rgb(107, 116, 22)
+);
+
+$theme-colors: map-merge($theme-colors, $new-colors);
